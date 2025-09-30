@@ -28,6 +28,7 @@ class CompaniesTable
                         'I' => 'Inactive',
                     ])
             ])
+            ->defaultSort('dot_number', 'desc')
             ->recordActions([
                 ViewAction::make(),
             ])
